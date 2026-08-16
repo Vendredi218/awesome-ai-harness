@@ -159,6 +159,7 @@ Read the source. This is the fastest way to learn the craft.
 - [Pi](https://github.com/earendil-works/pi) — The minimalist counterpoint: a thin core of four tools (`read`, `write`, `edit`, `bash`) on the bet that frontier models already know what a coding agent is. Everything else lives in extensions you add deliberately.
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) — Google's, Apache-2.0.
 - [Aider](https://github.com/Aider-AI/aider) — Mature, with unusually rigorous repo-map and edit-format engineering.
+- [Agent QA](https://github.com/vostride/agent-qa) — A TypeScript application-QA harness showing how persistent test memory, self-healing web/mobile flows, MCP tools, and evidence-backed failure triage fit into one runtime.
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands) — Research-grade, fully open, strong sandboxing story.
 - [SWE-agent](https://github.com/SWE-agent/SWE-agent) — The ACI paper as running code.
 - [Cline](https://github.com/cline/cline) — VS Code agent with an explicit plan/act split.

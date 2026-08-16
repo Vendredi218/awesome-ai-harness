@@ -159,6 +159,7 @@ Context window 就是 agent 的全部工作记忆，而且是一种稀缺的、�
 - [Pi](https://github.com/earendil-works/pi) —— 极简主义的对照组：只有 `read`、`write`、`edit`、`bash` 四个工具的薄内核，赌的是前沿模型本来就知道 coding agent 是怎么回事。其余一切都放进你主动加回来的 extension 里。
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) —— Google 的，Apache-2.0。
 - [Aider](https://github.com/Aider-AI/aider) —— 成熟项目，repo-map 和 edit-format 的工程做得格外扎实。
+- [Agent QA](https://github.com/vostride/agent-qa) —— TypeScript 应用 QA harness，可从源码了解持久化测试记忆、Web/移动端自愈流程、MCP 工具和基于证据的失败分诊如何组合在同一运行时中。
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands) —— 研究级、完全开源，沙箱方案很完整。
 - [SWE-agent](https://github.com/SWE-agent/SWE-agent) —— ACI 那篇论文的可运行版本。
 - [Cline](https://github.com/cline/cline) —— VS Code agent，plan/act 分离做得很显式。
