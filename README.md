@@ -62,6 +62,7 @@ The model is a stateless function. Every bit of statefulness, safety, memory, an
 
 Start here if you are new to the field.
 
+- [Harness Engineering for Self-Improvement](https://lilianweng.github.io/posts/2026-07-04-harness/) — Lilian Weng. The most complete map of the discipline to date: three design patterns (workflow automation, filesystem-as-memory, sub-agents and backend jobs), a coding-agent case study, where the harness layer ends and core intelligence begins, and the case for harnesses that optimize themselves through evolutionary search. If you read one thing on this list, read this.
 - [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) — Anthropic. The canonical starting point. Argues most "agents" should be workflows, and defines the vocabulary (chaining, routing, orchestrator-workers, evaluator-optimizer) the rest of the field now uses.
 - [How to Build an Agent](https://ampcode.com/how-to-build-an-agent) — Thorsten Ball. A working code agent in ~300 lines. The single best cure for the belief that agents are magic; it is a loop, a list of tools, and good plumbing.
 - [Agents](https://huyenchip.com/2025/01/07/agents.html) — Chip Huyen. Systematic breakdown of planning, tool use, and failure modes.
@@ -154,6 +155,8 @@ Read the source. This is the fastest way to learn the craft.
 
 - [Claude Code](https://github.com/anthropics/claude-code) — Anthropic's coding agent.
 - [Codex CLI](https://github.com/openai/codex) — OpenAI's, in Rust.
+- [DeepSeek Harness (dsh)](https://github.com/deepseek-ai/deepseek-harness) — Everything is a plugin, including the agent loop itself. There is deliberately no privileged core; the shipped coding agent is just one composition of swappable parts.
+- [Pi](https://github.com/earendil-works/pi) — The minimalist counterpoint: a thin core of four tools (`read`, `write`, `edit`, `bash`) on the bet that frontier models already know what a coding agent is. Everything else lives in extensions you add deliberately.
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) — Google's, Apache-2.0.
 - [Aider](https://github.com/Aider-AI/aider) — Mature, with unusually rigorous repo-map and edit-format engineering.
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands) — Research-grade, fully open, strong sandboxing story.
@@ -162,6 +165,10 @@ Read the source. This is the fastest way to learn the craft.
 - [OpenCode](https://github.com/sst/opencode) — Terminal agent, provider-agnostic.
 - [Goose](https://github.com/block/goose) — Block's extensible on-machine agent.
 - [Continue](https://github.com/continuedev/continue) — Building blocks for custom in-IDE assistants.
+
+Comparative reading:
+
+- [DeepSeek Harness: Everything Is a Plugin](https://saikodev.ai/blog/deepseek-harness) — SaikoDev. A hands-on dsh walkthrough that turns into the sharpest architectural comparison available: dsh versus Pi as two opposite bets — structured addition against subtraction, and whether control over extending the system belongs to the developer ahead of time or to the agent at runtime.
 
 ## Building Your Own
 

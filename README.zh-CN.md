@@ -62,6 +62,7 @@ flowchart TB
 
 刚入门从这里开始。
 
+- [Harness Engineering for Self-Improvement](https://lilianweng.github.io/posts/2026-07-04-harness/) —— Lilian Weng。目前对这门学科最完整的一张地图：三种设计模式（workflow 自动化、文件系统作为记忆、sub-agent 与后台任务）、一个 coding agent 案例研究、harness 层与核心智能的边界在哪，以及关于「harness 通过演化搜索自我优化」的论证。整个列表只读一篇的话，读这篇。
 - [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) —— Anthropic。公认的起点。核心观点是大部分所谓 "agent" 其实应该是 workflow，并定义了这个领域现在通用的词汇表（chaining、routing、orchestrator-workers、evaluator-optimizer）。
 - [How to Build an Agent](https://ampcode.com/how-to-build-an-agent) —— Thorsten Ball。用大约 300 行代码写一个能用的 coding agent。治疗"agent 很玄"这种幻觉的最好药方：它就是一个循环、一组工具，加上扎实的工程。
 - [Agents](https://huyenchip.com/2025/01/07/agents.html) —— Chip Huyen。系统性地拆解 planning、tool use 和失败模式。
@@ -154,6 +155,8 @@ Context window 就是 agent 的全部工作记忆，而且是一种稀缺的、�
 
 - [Claude Code](https://github.com/anthropics/claude-code) —— Anthropic 的 coding agent。
 - [Codex CLI](https://github.com/openai/codex) —— OpenAI 的，Rust 写的。
+- [DeepSeek Harness (dsh)](https://github.com/deepseek-ai/deepseek-harness) —— 一切皆 plugin，连 agent loop 本身也是。刻意不保留任何特权内核；官方那个 coding agent 只是这些可替换零件的一种组合方式。
+- [Pi](https://github.com/earendil-works/pi) —— 极简主义的对照组：只有 `read`、`write`、`edit`、`bash` 四个工具的薄内核，赌的是前沿模型本来就知道 coding agent 是怎么回事。其余一切都放进你主动加回来的 extension 里。
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) —— Google 的，Apache-2.0。
 - [Aider](https://github.com/Aider-AI/aider) —— 成熟项目，repo-map 和 edit-format 的工程做得格外扎实。
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands) —— 研究级、完全开源，沙箱方案很完整。
@@ -162,6 +165,10 @@ Context window 就是 agent 的全部工作记忆，而且是一种稀缺的、�
 - [OpenCode](https://github.com/sst/opencode) —— 终端 agent，不绑定 provider。
 - [Goose](https://github.com/block/goose) —— Block 出品，可扩展的本地 agent。
 - [Continue](https://github.com/continuedev/continue) —— 自建 IDE 内助手的积木。
+
+对比阅读：
+
+- [DeepSeek Harness: Everything Is a Plugin](https://saikodev.ai/blog/deepseek-harness) —— SaikoDev。从 dsh 上手教程写成了目前最锋利的一篇架构对比：dsh 与 Pi 是两个方向相反的赌注 —— 结构化的加法 vs. 减法，以及「谁来扩展这个系统」这个控制权，究竟属于事先动手的开发者，还是运行时的 agent。
 
 ## 自己动手做一个
 

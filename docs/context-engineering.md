@@ -92,6 +92,7 @@ Honest about what isn't settled:
 ## Sources
 
 - [Effective Context Engineering for AI Agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) — Anthropic
+- [Harness Engineering for Self-Improvement](https://lilianweng.github.io/posts/2026-07-04-harness/) — Lilian Weng. Situates context engineering as one lever of harness optimization among several.
 - [How Long Contexts Fail](https://www.dbreunig.com/2025/06/22/how-contexts-fail-and-how-to-fix-them.html) and [How to Fix Your Context](https://www.dbreunig.com/2025/06/26/how-to-fix-your-context.html) — Drew Breunig
 - [Context Engineering for Agents](https://blog.langchain.com/context-engineering-for-agents/) — LangChain
 - [Lost in the Middle](https://arxiv.org/abs/2307.03172)
