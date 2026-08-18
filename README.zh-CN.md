@@ -214,7 +214,7 @@ Context window 就是 agent 的全部工作记忆，而且是一种稀缺的、�
 
 ## 评估与可观测性
 
-测不出来的 harness 是调不动的。轨迹级评估和模型 benchmark 是两个不同的问题 —— 而且现在连 benchmark 本身也在被审计。
+测不出来的 harness 是调不动的。轨迹级评估和模型 benchmark 是两个不同的问题 —— 而且现在连 benchmark 本身也在被审计。这一节只放锚点；完整版在我们的姊妹列表 [awesome-agent-eval](https://github.com/Vendredi218/awesome-agent-eval)。
 
 - [Your AI Product Needs Evals](https://hamel.dev/blog/posts/evals/) —— Hamel Husain。关于如何搭一套能在生产环境里活下来的 eval 流程，最实用的文章。
 - [Creating a LLM-as-a-Judge That Drives Business Results](https://hamel.dev/blog/posts/llm-judge/) —— Hamel Husain。
@@ -371,6 +371,7 @@ Context window 就是 agent 的全部工作记忆，而且是一种稀缺的、�
 
 ### 社区与相邻列表
 
+- [awesome-agent-eval](https://github.com/Vendredi218/awesome-agent-eval) —— 我们的姊妹列表：负责「测」的那一半 —— agent benchmark 及其病理、verifier 设计、LLM-as-judge、生产环境 eval 流程。
 - [AI Engineer](https://www.youtube.com/@aiDotEngineer) —— 会议频道；harness engineering 演讲密度最高的单一档案库。
 - [Latent Space](https://www.latent.space/) —— agent engineering 这条线的 podcast/newsletter 记录者。
 - [MCP community channels](https://modelcontextprotocol.io/community/communication) —— 协议真正被决定的地方（SEP、工作组）。

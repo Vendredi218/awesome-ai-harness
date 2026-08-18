@@ -214,7 +214,7 @@ Loading every instruction upfront wastes context. Loading them on demand is a ha
 
 ## Evaluation & Observability
 
-You cannot tune a harness you cannot measure. Trajectory-level evaluation is a distinct problem from model benchmarking — and the benchmarks themselves are now under audit.
+You cannot tune a harness you cannot measure. Trajectory-level evaluation is a distinct problem from model benchmarking — and the benchmarks themselves are now under audit. This section holds the anchors; the full treatment lives in our sibling list, [awesome-agent-eval](https://github.com/Vendredi218/awesome-agent-eval).
 
 - [Your AI Product Needs Evals](https://hamel.dev/blog/posts/evals/) — Hamel Husain. The best practical writing on building an eval loop that survives contact with production.
 - [Creating a LLM-as-a-Judge That Drives Business Results](https://hamel.dev/blog/posts/llm-judge/) — Hamel Husain.
@@ -371,6 +371,7 @@ The governance split that determines your strategy: **core-open** projects (Open
 
 ### Community & adjacent lists
 
+- [awesome-agent-eval](https://github.com/Vendredi218/awesome-agent-eval) — Our sibling list: the measuring half — agent benchmarks and their pathologies, verifier design, LLM-as-judge, production eval loops.
 - [AI Engineer](https://www.youtube.com/@aiDotEngineer) — The conference channel; the densest single archive of harness-engineering talks.
 - [Latent Space](https://www.latent.space/) — The podcast/newsletter of record for the agent-engineering beat.
 - [MCP community channels](https://modelcontextprotocol.io/community/communication) — Where the protocol actually gets decided (SEPs, working groups).
