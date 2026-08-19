@@ -265,7 +265,6 @@ Context window 就是 agent 的全部工作记忆，而且是一种稀缺的、�
 - [Codex CLI](https://github.com/openai/codex) —— OpenAI 的，Rust 写的。
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) —— Google 的，Apache-2.0。
 - [Aider](https://github.com/Aider-AI/aider) —— 成熟项目，repo-map 和 edit-format 的工程做得格外扎实。
-- [Agent QA](https://github.com/vostride/agent-qa) —— TypeScript 应用 QA harness，可从源码了解持久化测试记忆、Web/移动端自愈流程、MCP 工具和基于证据的失败分诊如何组合在同一运行时中。
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands) —— 研究级、完全开源，沙箱方案很完整。
 - [SWE-agent](https://github.com/SWE-agent/SWE-agent) —— ACI 那篇论文的可运行版本。
 - [mini-swe-agent](https://github.com/SWE-agent/mini-swe-agent) —— 同一个团队约 100 行的对照组：唯一的工具是 bash，不用 tool-calling API，让前沿模型来开，照样在 SWE-bench Verified 上拿 >74%。极简主义之争里最锋利的一个数据点。
@@ -290,6 +289,7 @@ Context window 就是 agent 的全部工作记忆，而且是一种稀缺的、�
 - [browser-use](https://github.com/browser-use/browser-use) —— 占主导地位的开源 browser harness：把 DOM 序列化成带编号交互元素的结构化文本，任何 LLM 不靠视觉也能操作。
 - [Stagehand](https://github.com/browserbase/stagehand) —— Browserbase。在 Playwright 风格的 API 上架三个原语（act/observe/extract）；每一步都可以在确定性代码和自然语言之间选，带缓存和 self-healing。
 - [Skyvern](https://github.com/Skyvern-AI/skyvern) —— 视觉优先的对照组：vision LLM 对着截图做规划，网站改版了自动化也不死。AGPL-3.0 内核，部分能力留给闭源云 —— 这种许可模式值得留意。
+- [Agent QA](https://github.com/vostride/agent-qa) —— TypeScript 应用 QA harness，可从源码了解持久化测试记忆、Web/移动端自愈流程、MCP 工具和基于证据的失败分诊如何组合在同一运行时中。注意 FSL-1.1-ALv2 许可 —— source-available，两年后转 Apache-2.0。
 
 ### Deep Research
 

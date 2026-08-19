@@ -265,7 +265,6 @@ Read the source. This is the fastest way to learn the craft.
 - [Codex CLI](https://github.com/openai/codex) — OpenAI's, in Rust.
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) — Google's, Apache-2.0.
 - [Aider](https://github.com/Aider-AI/aider) — Mature, with unusually rigorous repo-map and edit-format engineering.
-- [Agent QA](https://github.com/vostride/agent-qa) — A TypeScript application-QA harness showing how persistent test memory, self-healing web/mobile flows, MCP tools, and evidence-backed failure triage fit into one runtime.
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands) — Research-grade, fully open, strong sandboxing story.
 - [SWE-agent](https://github.com/SWE-agent/SWE-agent) — The ACI paper as running code.
 - [mini-swe-agent](https://github.com/SWE-agent/mini-swe-agent) — The same team's ~100-line counterpoint: bash as the only tool, no tool-calling API, yet >74% on SWE-bench Verified with a frontier model driving it. The sharpest datapoint in the minimalism debate.
@@ -290,6 +289,7 @@ Read the source. This is the fastest way to learn the craft.
 - [browser-use](https://github.com/browser-use/browser-use) — The dominant open browser harness: serialize the DOM into structured text with indexed interactive elements, so any LLM can act without vision.
 - [Stagehand](https://github.com/browserbase/stagehand) — Browserbase. Three primitives (act/observe/extract) over a Playwright-style API; choose per step between deterministic code and natural language, with caching and self-healing.
 - [Skyvern](https://github.com/Skyvern-AI/skyvern) — The vision-first counterpoint: vision LLMs plan over screenshots so automations survive site redesigns. AGPL-3.0 core with some capabilities held back for the proprietary cloud — a licensing pattern worth noticing.
+- [Agent QA](https://github.com/vostride/agent-qa) — A TypeScript application-QA harness showing how persistent test memory, self-healing web/mobile flows, MCP tools, and evidence-backed failure triage fit into one runtime. Note the FSL-1.1-ALv2 license — source-available, converts to Apache-2.0 after two years.
 
 ### Deep research
 
