@@ -289,6 +289,7 @@ Read the source. This is the fastest way to learn the craft.
 - [browser-use](https://github.com/browser-use/browser-use) — The dominant open browser harness: serialize the DOM into structured text with indexed interactive elements, so any LLM can act without vision.
 - [Stagehand](https://github.com/browserbase/stagehand) — Browserbase. Three primitives (act/observe/extract) over a Playwright-style API; choose per step between deterministic code and natural language, with caching and self-healing.
 - [Skyvern](https://github.com/Skyvern-AI/skyvern) — The vision-first counterpoint: vision LLMs plan over screenshots so automations survive site redesigns. AGPL-3.0 core with some capabilities held back for the proprietary cloud — a licensing pattern worth noticing.
+- [Agent QA](https://github.com/vostride/agent-qa) — A TypeScript application-QA harness showing how persistent test memory, self-healing web/mobile flows, MCP tools, and evidence-backed failure triage fit into one runtime. Note the FSL-1.1-ALv2 license — source-available, converts to Apache-2.0 after two years.
 
 ### Deep research
 

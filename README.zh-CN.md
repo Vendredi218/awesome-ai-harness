@@ -289,6 +289,7 @@ Context window 就是 agent 的全部工作记忆，而且是一种稀缺的、�
 - [browser-use](https://github.com/browser-use/browser-use) —— 占主导地位的开源 browser harness：把 DOM 序列化成带编号交互元素的结构化文本，任何 LLM 不靠视觉也能操作。
 - [Stagehand](https://github.com/browserbase/stagehand) —— Browserbase。在 Playwright 风格的 API 上架三个原语（act/observe/extract）；每一步都可以在确定性代码和自然语言之间选，带缓存和 self-healing。
 - [Skyvern](https://github.com/Skyvern-AI/skyvern) —— 视觉优先的对照组：vision LLM 对着截图做规划，网站改版了自动化也不死。AGPL-3.0 内核，部分能力留给闭源云 —— 这种许可模式值得留意。
+- [Agent QA](https://github.com/vostride/agent-qa) —— TypeScript 应用 QA harness，可从源码了解持久化测试记忆、Web/移动端自愈流程、MCP 工具和基于证据的失败分诊如何组合在同一运行时中。注意 FSL-1.1-ALv2 许可 —— source-available，两年后转 Apache-2.0。
 
 ### Deep Research
 
