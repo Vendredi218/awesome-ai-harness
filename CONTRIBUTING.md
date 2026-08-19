@@ -33,7 +33,7 @@ Bilingual note: adding to only one README is fine. Say so in the PR and a mainta
 
 ## Longer notes
 
-The `docs/` folder holds synthesized notes rather than link lists. If you want to write one — the agent loop, memory, multi-agent, permissions, and evaluation are all open — open an issue first so we can agree on scope. Follow the existing shape: a one-sentence thesis, the substance, honest open questions, and sources.
+The `docs/` folder holds synthesized notes rather than link lists. If you want to write one — the agent loop, memory, multi-agent, sandboxing, safety & HITL, and evaluation are all open — open an issue first so we can agree on scope. Follow the existing shape: a one-sentence thesis, the substance, honest open questions, and sources.
 
 ## Removals
 
